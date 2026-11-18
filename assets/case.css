@@ -30,6 +30,7 @@ a:hover{color:#FFFFFF}
 .btn:hover{background:#FFFFFF;color:var(--bg)}
 .btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--line-strong);font:500 15px/1.2 var(--font-mono)}
 .btn.secondary:hover{background:var(--surface-2);border-color:var(--fg);color:var(--fg)}
+.btn svg{width:18px;height:18px;flex:none;fill:currentColor}
 .btn:focus-visible,a:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
 .link{font:400 15px/1.4 var(--font-mono);color:var(--fg);text-decoration:underline;text-underline-offset:4px}
 .list{margin:0;padding:0;list-style:none}
