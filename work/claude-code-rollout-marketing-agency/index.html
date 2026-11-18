@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude Code Rollout and Training for a Marketing Agency · Pablo Verdugo</title>
+<meta name="description" content="Consulting and training for a 300-person marketing agency moving its whole team onto Claude Code, plus custom skills for their data, their client research and a security audit across all their repos.">
+<link rel="canonical" href="https://pablovgdev.github.io/work/claude-code-rollout-marketing-agency/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Claude Code Rollout and Training for a Marketing Agency">
+<meta property="og:description" content="Consulting and training for a 300-person marketing agency moving its whole team onto Claude Code, plus custom skills for their data, their client research and a security audit across all their repos.">
+<meta property="og:url" content="https://pablovgdev.github.io/work/claude-code-rollout-marketing-agency/">
+<meta property="og:image" content="https://pablovgdev.github.io/assets/work/claude-code-rollout-marketing-agency.png">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="1200">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E0E0E">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iIzBFMEUwRSIvPjx0ZXh0IHg9IjkiIHk9IjMzIiBmb250LWZhbWlseT0iSmV0QnJhaW5zIE1vbm8sIHVpLW1vbm9zcGFjZSwgbW9ub3NwYWNlIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjI2IiBmaWxsPSIjRURFREVEIj5wPC90ZXh0PjxyZWN0IHg9IjI4IiB5PSIyNyIgd2lkdGg9IjciIGhlaWdodD0iNyIgZmlsbD0iI0ZGN0ExQSIvPjwvc3ZnPgo=">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../assets/case.css">
+</head>
+<body>
+<a class="skip" href="#case">Skip to the case</a>
+
+<header class="top">
+  <div class="container">
+    <a class="logo" href="../../">pablo<span>_</span>verdugo</a>
+    <nav>
+      <a href="../../#projects">projects</a>
+      <a class="hide-sm" href="../../#reviews">reviews</a>
+      <a class="btn sm" href="../../#contact">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="case">
+  <article>
+    <header class="case-hero">
+      <div class="container">
+        <a class="link back" href="../../#projects">← all projects</a>
+        <div class="case-grid">
+          <div>
+            <p class="label">Case study · Claude</p>
+            <h1>Claude Code Rollout and Training for a Marketing Agency</h1>
+            <p class="lead">Consulting and training for a 300-person marketing agency moving its whole team onto Claude Code, plus custom skills for their data, their client research and a security audit across all their repos.</p>
+          </div>
+          <img class="shot" src="../../assets/work/claude-code-rollout-marketing-agency.png" alt="" width="1600" height="1200">
+        </div>
+        <dl class="case-facts">
+          <div><dt>Client</dt><dd><a href="https://webprofits.com.au" target="_blank" rel="noopener">Webprofits</a></dd></div>
+          <div><dt>Year</dt><dd>2026</dd></div>
+          <div><dt>Type</dt><dd>Claude</dd></div>
+          <div><dt>Role</dt><dd>Consultant and trainer</dd></div>
+        </dl>
+      </div>
+    </header>
+
+    <div class="section rows">
+      <div class="container">
+        <section class="row">
+          <h2>Context</h2>
+          <div class="prose">
+          <p>Webprofits is a performance marketing agency in Australia that works on ecommerce and lead generation. The company decided that the whole team would work in Claude Code.</p>
+          <p>A decision like that raises practical questions fast. Where does each person's work live? How do skills get shared and updated? What stops a client's data from leaking into another client's project? How much is all of this going to cost in tokens?</p>
+          </div>
+        </section>
+        <section class="row">
+          <h2>What I built</h2>
+          <div class="prose">
+          <p>I helped them set it up, learn to use it and fix what broke along the way. The most concrete pieces:</p>
+          <ul class="list">
+            <li><span>A GitHub structure for the team: one repo per person, a shared repo of skills and a security audit on every push.</span></li>
+            <li><span>Custom skills for their data: Shopify through its API, Klaviyo, and their customer enrichment tool, which I moved from n8n and Apify over to Claude Code skills.</span></li>
+            <li><span>Routines and plugins: the skills people used to launch by hand now run as scheduled routines, and reach the team as plugins that update with one command.</span></li>
+            <li><span>Security: each client repo only sees that client's database, and every change comes in through a pull request with automatic checks. On top of that, a security audit skill that runs as a routine across their 140 to 200 repos.</span></li>
+            <li><span>New session start and wrap-up skills for their internal academy. Measured with a benchmark, the new version runs in half the time.</span></li>
+            <li><span>Token costs: a set of measures to bring spending down and local telemetry to see how much each person uses.</span></li>
+          </ul>
+          </div>
+        </section>
+        <section class="row">
+          <h2>How I worked</h2>
+          <div class="prose">
+          <p>A one-hour call every week and a strategy call once a month, over several months.</p>
+          <p>I did not hand over a finished system. They were moving their own team, and my job was to help them set it up, teach them to use it and fix what broke along the way.</p>
+          <p>When I rewrote their session skills I benchmarked the old version against the new one, so &quot;better&quot; was a number and not an opinion.</p>
+          </div>
+        </section>
+        <section class="row">
+          <h2>Result</h2>
+          <div class="prose result">
+          <p>The session start and wrap-up skills went from four minutes to two.</p>
+          <p>We ended the engagement when they no longer needed me: the team works in Claude Code every day on its own.</p>
+          </div>
+        </section>
+        <section class="row">
+          <h2>Stack</h2>
+          <dl class="tech">
+            <div><dt>Claude Code</dt><dd>Where the whole team works: skills, plugins, routines.</dd></div>
+            <div><dt>GitHub</dt><dd>A repo per person, a shared skills repo, pull requests with checks.</dd></div>
+            <div><dt>Shopify API</dt><dd>Store data for the skills.</dd></div>
+            <div><dt>Klaviyo</dt><dd>Email marketing data for the skills.</dd></div>
+          </dl>
+        </section>
+      </div>
+    </div>
+
+    <section class="section alt" aria-label="What the client says">
+      <div class="container">
+        <figure class="quote">
+          <blockquote>Pablo got our whole team working with Claude Code and made us actually use it day to day. He has a way of explaining the hard parts that makes everything click the first time, and we come out of every session having moved forward. Some of the most valuable hours we invest.</blockquote>
+          <figcaption>
+            <img src="../../assets/people/alex-cleanthous.jpg" alt="" width="48" height="48" loading="lazy">
+            <span><strong>Alex Cleanthous</strong>Director<i> · </i><a href="https://webprofits.com.au" target="_blank" rel="noopener">Webprofits</a></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </article>
+
+  <nav class="section pn" aria-label="More projects">
+    <div class="container">
+      <a href="../seo-sales-proposal-skill/"><span>← previous</span><strong>Claude Skill for SEO Sales Proposals</strong></a>
+      <a href="../email-copywriting-automation/"><span>next →</span><strong>AI Copywriting Automation for Email Campaigns</strong></a>
+    </div>
+  </nav>
+
+  <section class="section cta">
+    <div class="container">
+      <h2>Contact me</h2>
+      <p class="lead">Message me on LinkedIn with what you need. I'll tell you if I can help, and how.</p>
+      <div class="actions">
+        <a class="btn" href="https://www.linkedin.com/in/pablovgdev/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn secondary" href="../../#projects">All projects</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <span>pablo_verdugo</span>
+    <span>Madrid · <a href="https://www.linkedin.com/in/pablovgdev/" target="_blank" rel="noopener">linkedin</a> · <a href="https://github.com/pablovgdev" target="_blank" rel="noopener">github</a></span>
+  </div>
+</footer>
+</body>
+</html>
